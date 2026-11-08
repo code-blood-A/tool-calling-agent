@@ -1,0 +1,29 @@
+# ── Core LangChain packages ──────────────────────────────────────────────────
+# Docs: https://python.langchain.com/docs/introduction/
+# PyPI: https://pypi.org/project/langchain/
+langchain==0.3.7
+
+# Mistral integration for LangChain (ChatMistralAI, bind_tools, ToolMessage)
+# Docs: https://python.langchain.com/docs/integrations/chat/mistralai/
+# PyPI: https://pypi.org/project/langchain-mistralai/
+langchain-mistralai==0.2.4
+
+# ── HTTP requests (used by get_weather → Open-Meteo) ─────────────────────────
+# Docs: https://docs.python-requests.org/en/latest/
+# PyPI: https://pypi.org/project/requests/
+requests==2.32.3
+
+# ── Environment variables from .env file ─────────────────────────────────────
+# Docs: https://pypi.org/project/python-dotenv/
+python-dotenv==1.0.1
+
+# ── MCP SDK  (Phase 6 — FastMCP server & client) ─────────────────────────────
+# Docs: https://modelcontextprotocol.io/quickstart/server
+# PyPI: https://pypi.org/project/mcp/
+mcp==1.4.1
+
+# ── LangGraph  (Phase 4 — graph agent, memory, human-in-the-loop) ────────────
+# Docs: https://langchain-ai.github.io/langgraph/
+# PyPI: https://pypi.org/project/langgraph/
+langgraph==0.2.53
+
